@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeevidhya | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">Jeevi<span>.</span></a>
+        <button id="menuBtn">☰</button>
+
+        <ul id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div>
+        <p class="tag">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Jeevidhya N</span></h1>
+        <h2>B.Tech AI & DS Student</h2>
+        <p>
+            Passionate about programming, technology and
+            creating useful applications through code.
+        </p>
+        <a href="#projects" class="btn">Explore My Work</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+
+    <div class="profile">
+        <span>JN</span>
+        <p>Java | Web Development</p>
+    </div>
+</section>
+
+<section class="section" id="about">
+    <p class="tag">GET TO KNOW ME</p>
+    <h2>About <span>Me</span></h2>
+
+    <div class="about-card">
+        <h3>Aspiring IT Professional</h3>
+        <p>
+            I am a third-year B.Tech Artificial Intelligence
+            and Data Science student at Prince Dr. K. Vasudevan
+            College of Engineering and Technology.
+        </p>
+        <p>
+            I enjoy learning Java, SQL, Data Structures and
+            web development. I am interested in building
+            real-world software applications.
+        </p>
+    </div>
+</section>
+
+<section class="section skills-section" id="skills">
+    <p class="tag">WHAT I KNOW</p>
+    <h2>My <span>Skills</span></h2>
+
+    <div class="skills">
+        <div class="skill">☕ <h3>Java</h3></div>
+        <div class="skill">⚙️ <h3>C Programming</h3></div>
+        <div class="skill">🌐 <h3>HTML</h3></div>
+        <div class="skill">🎨 <h3>CSS</h3></div>
+        <div class="skill">⚡ <h3>JavaScript</h3></div>
+        <div class="skill">🗄️ <h3>SQL</h3></div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <p class="tag">MY WORK</p>
+    <h2>My <span>Projects</span></h2>
+
+    <div id="projectList" class="projects">
+        <p>Loading projects...</p>
+    </div>
+</section>
+
+<section class="section contact-section" id="contact">
+    <p class="tag">LET'S CONNECT</p>
+    <h2>Contact <span>Me</span></h2>
+
+    <form id="contactForm">
+        <input type="text" id="name"
+               placeholder="Your Name" required>
+
+        <input type="email" id="email"
+               placeholder="Your Email" required>
+
+        <textarea id="message"
+                  placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="formStatus"></p>
+    </form>
+
+    <p class="linkedin">
+        <a href="https://www.linkedin.com/in/jeevidhya-n-424b0a381/"
+           target="_blank">Connect on LinkedIn ↗</a>
+    </p>
+</section>
+
+<footer>
+    <p>Designed with ❤️ by Jeevidhya N</p>
+    <p>© <span id="year"></span> All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
